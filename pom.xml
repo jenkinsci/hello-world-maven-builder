@@ -49,7 +49,7 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.21.0</version>
                 <configuration>
-                    <sourceEncoding>utf-8</sourceEncoding>
+                    <linkXRef>false</linkXRef>
                 </configuration>
                 <executions>
                     <execution>
@@ -74,7 +74,6 @@
                         </goals>
                         <configuration>
                             <xmlOutput>true</xmlOutput>
-                            <spotbugsXmlOutput>false</spotbugsXmlOutput>
                             <effort>Default</effort>
                             <threshold>Medium</threshold>
                             <failOnError>true</failOnError>
