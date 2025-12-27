@@ -1,18 +1,7 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    ":semanticCommitsDisabled"
-  ],
-  "automerge": true,
-  "reviewers": [
-    "team:acceptance-test-harness-developers"
-  ],
-  "labels": [
-    "dependencies"
-  ],
-  "schedule": [
-    "on the first day of the month"
-  ],
-  "rebaseWhen": "conflicted"
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>jenkinsci/renovate-config"
+    ],
+    "automerge": true
 }
